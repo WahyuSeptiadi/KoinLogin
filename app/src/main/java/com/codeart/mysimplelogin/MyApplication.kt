@@ -7,7 +7,7 @@ import org.koin.core.context.startKoin
 /**
  * Supaya Anda bisa menggunakan Koin di semua kelas, Anda dapat membuat Custom Application untuk
  * memanggil Koin. Kelas ini akan dijadikan sebagai base Application dengan menambahkan name pada
- * AndroidManifest. (Sementara class dibawah ini tidak digunakan)
+ * AndroidManifest.
  **/
 
 open class MyApplication : Application() {
